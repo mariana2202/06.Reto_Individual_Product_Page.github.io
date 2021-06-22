@@ -1,0 +1,279 @@
+*{  margin: 0px;
+    padding: 0px;
+}
+
+/* FONTS */
+@import url('http://fonts.cdnfonts.com/css/niagara-solid');
+@import url('http://fonts.cdnfonts.com/css/photograph-signature');
+
+/* COLORES */
+/* As hex codes */
+.color-primary-0 { background: #5E9732; }	/* Main Primary color */
+.color-primary-1 { background: #EDEDED; }
+.color-primary-2 { background: #B0D594; }
+.color-primary-3 { background: #275900; }
+.color-primary-4 { background: #142F00; }
+/* As RGBa codes */
+.rgb-0 { color: rgba( 94,151, 50,1) }	/* Main Primary color */
+.rgb-1 { color: rgba(237,237,237,1) }
+.rgb-2 { color: rgba(176,213,148,1) }
+.rgb-3 { color: rgba( 39, 89,  0,1) }
+.rgb-4 { color: rgba( 20, 47,  0,1) }
+/* Palette URL: http://paletton.com/#uid=12B0u0kllll00Ha9Nu7yEcz++6C */
+/* http://paletton.com */
+
+
+.font-ns{
+    font-family: 'Niagara Solid', sans-serif;
+}
+
+.font-ps{
+    font-family: 'Photograph Signature', sans-serif;
+}
+
+.f-35{
+    font-size: 35px;
+}
+
+a{
+    color: rgba(237,237,237,1);
+}
+
+/* Light */
+body.light a{
+    color: rgba( 20, 47,  0,1);
+}
+
+a:hover{
+    color: rgba( 94,151, 50,1);
+}
+
+/* Light */
+body.light a:hover{
+    color: rgba( 39, 89,  0,1);
+}
+
+h1{
+    font-size: 60px;
+}
+
+.navbar{
+    background: #142F00; 
+}
+
+/* Light */
+body.light .navbar{
+    background: #B0D594;
+}
+
+.navbar-brand{
+    background: url(../images/logo-blanco.png);
+    width: 98px;
+    height: 98px;
+}
+
+/* Light */
+body.light .navbar-brand{
+    background: url(../images/logo-verde.png);
+    width: 100px;
+    height: 100px;
+}
+
+.p-logo{
+    padding-left: 100px;
+}
+
+.btn-menu:focus{
+    border: none;
+    outline: none;
+}
+
+.img-menu{
+    background: url(../images/iconos/hb.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Light */
+body.light .img-menu{
+    background: url(../images/iconos/hv.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img-menu:hover{
+    background: url(../images/iconos/hvcc.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Light */
+body.light .img-menu:hover{
+    background: url(../images/iconos/hvc.png);
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#carousel{
+    padding: 0;
+}
+
+.sun{
+    background: url(../images/iconos/sb.png);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+/* Light */
+body.light .sun{
+    background: url(../images/iconos/lv.png);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+.sun:hover{
+    background: url(../images/iconos/sv.png);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+/* Light */
+body.light .sun:hover{
+    background: url(../images/iconos/lvc.png);
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+
+#productos{
+    background: #142F00;
+}
+
+/* Light */
+body.light #productos{
+    background: #B0D594;
+}
+
+#productos h1{
+    color: #EDEDED;
+}
+
+/* Light */
+body.light #productos h1{
+    color: #142F00
+}
+
+.prod-img{
+    margin-top: 15px;
+}
+
+.card{
+    border: 5px solid rgba( 39, 89,  0,1);
+    max-width: 280px;
+    margin: 10px;
+    background: #B0D594;
+    color: #142F00;
+}
+
+/* Light */
+body.light .card{
+    border: 5px solid rgba( 20, 47,  0,1);
+    max-width: 280px;
+    margin: 10px;
+    background: #275900;
+    color: #EDEDED;
+}
+
+.car-img{
+    width: 55px;
+    height: 55px;
+}
+
+.c-add{
+    background: #142F00;
+    color: #EDEDED;
+    cursor: pointer;
+}
+
+/* Light */
+body.light .c-add{
+    background: #B0D594;
+    color: #142F00;
+    cursor: pointer;
+}
+
+.c-add:hover{
+    background: #275900;
+}
+
+/* Light */
+body.light .c-add:hover{
+    background: #EDEDED;
+    color: #142F00;
+}
+
+.car{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/iconos/cb.png);
+    background-size: 40px;
+}
+
+/* Light */
+body.light .car{
+    width: 40px;
+    height: 40px;
+    background: url(../images/iconos/cv.png);
+    background-size: 40px;
+}
+
+#carrito{
+    background:#142F00;
+}
+
+/* Light */
+body.light #carrito{
+    background: #275900;
+}
+
+.list-group-item.active {
+    color: rgba( 20, 47,  0,1);
+    background-color: #B0D594;
+    border-color: #B0D594;
+}
+
+.cross{
+    opacity: 0%;
+    width: 28px;
+    height: 28px;
+}
+
+.list-group-item:hover .cross{
+    opacity: 100%;
+    width: 28px;
+    height: 28px;
+}
+
+.pie-pag{
+    background: #142F00;
+}
+
+/* Light */
+body.light .pie-pag{
+    background: #275900;
+}
+
+.enviar{
+    font-size: 24px;
+}
