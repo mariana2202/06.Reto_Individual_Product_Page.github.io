@@ -156,13 +156,26 @@ body.light .sun:hover{
     cursor: pointer;
 }
 
-#productos{
+.bg-pc{
     background: #142F00;
+    background-image: url(../images/fondos/desk-dark-productos.png);
+    width: 100%;
 }
+
+/* #productos{
+    background: #142F00;
+    background-image: url(../images/fondos/desk-dark-productos.png);
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%, cover; */
+
 
 /* Light */
 body.light #productos{
     background: #B0D594;
+    background-image: url(../images/fondos/desk-light-productos.png);
+    width: 100%;
+    /* background-size: 100%, cover; */
 }
 
 #productos h1{
@@ -238,13 +251,13 @@ body.light .car{
     background-size: 40px;
 }
 
-#carrito{
-    background:#142F00;
-}
-
 /* Light */
 body.light #carrito{
     background: #275900;
+    background-image: url(../images/fondos/desk-light-carrito.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%, cover;
 }
 
 .list-group-item.active {
