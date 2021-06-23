@@ -257,7 +257,7 @@ body.light #carrito{
     background-image: url(../images/fondos/desk-light-carrito.png);
     background-repeat: no-repeat;
     width: 100%;
-    background-size: 100%, cover;
+    /* background-size: 100%, cover; */
 }
 
 .list-group-item.active {
