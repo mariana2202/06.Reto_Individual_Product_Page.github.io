@@ -278,6 +278,37 @@ body.light #carrito{
     height: 28px;
 }
 
+/* Light */
+body.light .item-left{
+    background-color: #275900;
+}
+
+.clear{
+    background-color: #275900;
+    color: rgba(237,237,237,1);
+    cursor: pointer;
+}
+
+/* Light */
+body.light .clear{
+    background-color: #142F00;
+    color: rgba(237,237,237,1);
+    cursor: pointer;
+}
+
+.clear:hover{
+    background-color: #B0D594;
+    color:rgba( 20, 47,  0,1);
+    cursor: pointer;
+}
+
+/* Light */
+body.light .clear:hover{
+    background-color: #B0D594;
+    color: rgba( 20, 47,  0,1);
+    cursor: pointer;
+}
+
 .pie-pag{
     background: #142F00;
 }
@@ -289,4 +320,26 @@ body.light .pie-pag{
 
 .enviar{
     font-size: 24px;
+}
+
+@media only screen and (max-width: 700px){
+
+    .car{
+        width: 25px;
+        height: 25px;
+        background-image: url(../images/iconos/cb.png);
+        background-size: 25px;
+    }
+    
+    /* Light */
+    body.light .car{
+        width: 25px;
+        height: 25px;
+        background: url(../images/iconos/cv.png);
+        background-size: 25px;
+    }
+
+    .cross{
+        opacity: 100%;
+    }
 }
