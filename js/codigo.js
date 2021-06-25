@@ -45,6 +45,7 @@ function addToCartClicked(event){
 
 function addItemToShoppingCart(cardTitle, cardPrice, cardImg){
     const shoppingCartRow = document.createElement('div');
+    totalCarrito.textContent = totalProductos();
     const shoppingCartContent = `
         <div class="container p-0 mb-3 col-12">
             <ul class="list-group" id="contProductos">
@@ -72,13 +73,12 @@ function addItemToShoppingCart(cardTitle, cardPrice, cardImg){
     // Condicional para eliminar 
         msmCar.classList.add("d-none");
         msmCar.classList.remove("d-flex");
-        // msmCar.style.display = "none";
     
 }
 
 function removeShoppingCartItem(event){
     if(event.target.classList.contains("cross")){    
-        event.target.parentElement.parentElement.parentElement.remove();
+        event.target.parentElement.parentElement.parentElement.parentElement.parentElement.remove();
         totalCarrito.textContent = totalProductos();
         console.log();
 
