@@ -3,8 +3,15 @@
 }
 
 /* FONTS */
-@import url("https://fonts.cdnfonts.com/css/niagara-solid");
-@import url("https://fonts.cdnfonts.com/css/photograph-signature");
+/* @import url("https://fonts.cdnfonts.com/css/niagara-solid"); */
+/* @import url("https://fonts.cdnfonts.com/css/photograph-signature"); */
+
+@font-face {
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Niagara Solid'), url('https://fonts.cdnfonts.com/s/13457/Niagara Solid.woff') format('woff');
+}
 
 @font-face {
     font-family: 'Photograph Signature';
@@ -175,7 +182,15 @@ body.light .sun:hover{
     width: 100%;
     /* background-repeat: no-repeat; */
     /* background-size: 100%, cover; */
+/* } */
 
+.card{
+    max-width: 167px;
+}
+
+body{
+    min-width: 478px;
+}
 
 /* Light */
 body.light #productos{
